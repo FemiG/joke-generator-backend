@@ -1,0 +1,38 @@
+Create a CRUD app. Using the following HTTP Verbs. GET, POST, PATCH and DELETE.
+
+Use an array to store data. 
+
+The POST method should add an element to the array and return the element as the response. In the request body(use a value)
+The GET method should send the array as the response
+The PATCH method should Replace a specified element in the arra
+y(use a value to replace and the index to replace to)
+The DELETE method should Delete an element in the array.
+
+
+Hint:
+-Initialize an empty array.
+-use the push() method to add an element to the array.
+-use the pop() method to delete an element in the array.
+
+
+-figure out how to do patch yourself.
+
+
+
+
+2.
+
+Create an object of 10 jokes.
+{
+    "1":"insertjokehere",
+    "2":"insertjokehere",
+    "3":"insertjokehere",
+}
+
+
+write
+a crud api
+you can delete an existing joke,
+you can replace an existing joke, return the entire joke object as your response.
+you can add a new joke, return the new joke as the response.
+for the get request, generate a random number within the length of your object and use it as the key to access a single joke and return that as the response.
